@@ -3,7 +3,19 @@
 #include <windows.h>
 using namespace std;
 
+class Maker {
+    private:
+
+    int counter;
+
+    public:
+    void Maker{int param} {
+        this->counter = param;
+    }
+};
+
 void run(int param) {
+    float ty = 12.77f;
     for (int i = 0; i < param; i++) {
         std::cout << i << std::endl;
         //Sleep(500);

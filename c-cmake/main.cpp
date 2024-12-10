@@ -9,7 +9,7 @@ class Maker {
     int counter;
 
     public:
-    void Maker{int param} {
+    Maker{int param} {
         this->counter = param;
     }
 };
